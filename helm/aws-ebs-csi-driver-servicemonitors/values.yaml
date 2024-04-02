@@ -1,0 +1,8 @@
+cluster:
+  kubernetes:
+    clusterDomain: cluster.local
+
+team: kaas
+
+# In order to avoid having stability issues, we allow disabling scraping of AWS EBS CSI driver by setting the disabled flag to true.
+disabled: false

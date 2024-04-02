@@ -1,0 +1,14 @@
+apiVersion: v2
+description: AWS EBS CSI driver ServiceMonitors
+name: aws-ebs-csi-driver-servicemonitors
+version: [[ .Version ]]
+appVersion: 1.0.0
+annotations:
+  application.giantswarm.io/team: "phoenix"
+home: https://github.com/giantswarm/aws-ebs-csi-driver-servicemonitors-app
+keywords:
+  - monitoring
+restrictions:
+  clusterSingleton: true
+  fixedNamespace: kube-system
+type: application
