@@ -15,5 +15,5 @@ spec:
     - port: metrics
   selector:
     matchLabels:
-      app: aws-ebs-csi-driver
+      app: ebs-csi-controller
 {{- end }}
