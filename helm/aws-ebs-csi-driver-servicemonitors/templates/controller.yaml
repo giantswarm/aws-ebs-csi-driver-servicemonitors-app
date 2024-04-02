@@ -1,6 +1,6 @@
 {{- if not .Values.disabled }}
 apiVersion: monitoring.coreos.com/v1
-kind: ServiceMonitor
+kind: PodMonitor
 metadata:
   labels:
     application.giantswarm.io/team: {{ .Values.team }}
@@ -8,9 +8,12 @@ metadata:
   name: aws-ebs-csi-driver-controller
   namespace: kube-system
 spec:
-  endpoints:
+  namespaceSelector:
+    matchNames:
+      - kube-system
+  podMetricsEndpoints:
     - port: http
   selector:
     matchLabels:
-      app: ebs-csi-controller
+      app: aws-ebs-csi-driver
 {{- end }}
