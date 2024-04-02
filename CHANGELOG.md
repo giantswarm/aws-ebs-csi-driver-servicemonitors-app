@@ -7,9 +7,12 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+## [0.1.0] - 2024-04-02
+
 ### Added
 
 - First release.
 
 
-[Unreleased]: https://github.com/giantswarm/aws-ebs-csi-driver-servicemonitors-app/compare/v0.0.0...HEAD
+[Unreleased]: https://github.com/giantswarm/aws-ebs-csi-driver-servicemonitors-app/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/giantswarm/aws-ebs-csi-driver-servicemonitors-app/compare/v0.0.0...v0.1.0
