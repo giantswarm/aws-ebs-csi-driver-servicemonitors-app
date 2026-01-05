@@ -1,0 +1,6 @@
+replace-chart-version-with-git: true
+generate-metadata: true
+chart-dir: ./helm/aws-ebs-csi-driver-servicemonitors
+destination: build
+catalog-base-url: https://giantswarm.github.io/default-catalog/
+
