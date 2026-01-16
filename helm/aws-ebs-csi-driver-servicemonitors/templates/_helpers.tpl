@@ -39,7 +39,7 @@ helm.sh/chart: {{ include "aws-ebs-csi-driver-servicemonitors.chart" . }}
 app.kubernetes.io/version: {{ .Chart.AppVersion | quote }}
 {{- end }}
 app.kubernetes.io/managed-by: {{ .Release.Service }}
-application.giantswarm.io/team: {{ index .Chart.Annotations "application.giantswarm.io/team" | quote }}
+application.giantswarm.io/team: {{ .Values.team | quote }}
 {{- if .Values.releaseLabel }}
 release: {{ .Release.Name }}
 {{- end }}
