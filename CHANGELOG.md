@@ -7,6 +7,8 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-02-19
+
 ### Changed
 
 - Migrate to App Build Suite (ABS).
@@ -18,5 +20,6 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 - First release.
 
 
-[Unreleased]: https://github.com/giantswarm/aws-ebs-csi-driver-servicemonitors-app/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/giantswarm/aws-ebs-csi-driver-servicemonitors-app/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/giantswarm/aws-ebs-csi-driver-servicemonitors-app/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/giantswarm/aws-ebs-csi-driver-servicemonitors-app/compare/v0.0.0...v0.1.0
