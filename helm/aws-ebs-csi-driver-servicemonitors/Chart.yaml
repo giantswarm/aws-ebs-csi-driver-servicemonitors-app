@@ -1,7 +1,7 @@
 apiVersion: v2
 description: AWS EBS CSI driver ServiceMonitors
 name: aws-ebs-csi-driver-servicemonitors
-version: 0.2.0-dev
+version: 0.1.1
 appVersion: 1.0.0
 icon: https://s.giantswarm.io/app-icons/giantswarm/1/dark.svg
 annotations:
