@@ -7,6 +7,8 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+## [0.1.2] - 2026-02-23
+
 ### Fixed
 
 - Remove duplicate `application.giantswarm.io/team` label in PodMonitor that caused install failure. The label is already included via the common labels helper.
@@ -24,6 +26,7 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 - First release.
 
 
-[Unreleased]: https://github.com/giantswarm/aws-ebs-csi-driver-servicemonitors-app/compare/v0.1.1...HEAD
+[Unreleased]: https://github.com/giantswarm/aws-ebs-csi-driver-servicemonitors-app/compare/v0.1.2...HEAD
+[0.1.2]: https://github.com/giantswarm/aws-ebs-csi-driver-servicemonitors-app/compare/v0.1.1...v0.1.2
 [0.1.1]: https://github.com/giantswarm/aws-ebs-csi-driver-servicemonitors-app/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/giantswarm/aws-ebs-csi-driver-servicemonitors-app/compare/v0.0.0...v0.1.0
