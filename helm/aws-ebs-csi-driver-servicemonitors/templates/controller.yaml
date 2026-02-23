@@ -3,7 +3,6 @@ apiVersion: monitoring.coreos.com/v1
 kind: PodMonitor
 metadata:
   labels:
-    application.giantswarm.io/team: {{ .Values.team }}
     {{- include "aws-ebs-csi-driver-servicemonitors.labels" . | nindent 4 }}
   name: aws-ebs-csi-driver-controller
   namespace: kube-system
