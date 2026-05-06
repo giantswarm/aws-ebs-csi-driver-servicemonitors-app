@@ -7,6 +7,10 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 ## [Unreleased]
 
+### Added
+
+- Add additional `metrics-*` ports used by controller containers
+
 ## [0.1.2] - 2026-02-23
 
 ### Fixed

@@ -12,6 +12,11 @@ spec:
       - kube-system
   podMetricsEndpoints:
     - port: metrics
+    - port: metrics-attach
+    - port: metrics-lp
+    - port: metrics-prov
+    - port: metrics-resizer
+    - port: metrics-snap
   selector:
     matchLabels:
       app: ebs-csi-controller
