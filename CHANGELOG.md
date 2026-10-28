@@ -11,6 +11,10 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 
 - Add additional `metrics-*` ports used by controller containers
 
+### Fixed
+
+- The `helm.sh/chart` label is valid for long chart versions: the 63-character cut trims the whole trailing run of `-`, `.` and `_`.
+
 ## [0.1.2] - 2026-02-23
 
 ### Fixed
@@ -28,7 +32,6 @@ and this project's packages adheres to [Semantic Versioning](http://semver.org/s
 ### Added
 
 - First release.
-
 
 [Unreleased]: https://github.com/giantswarm/aws-ebs-csi-driver-servicemonitors-app/compare/v0.1.2...HEAD
 [0.1.2]: https://github.com/giantswarm/aws-ebs-csi-driver-servicemonitors-app/compare/v0.1.1...v0.1.2
